@@ -7,11 +7,11 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
-    await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+       await message.reply_text(
+        f"""**Hallo Selamat Databg, Saya {bn} 🎵
+
+Saya adalah bot musik yang dapat menghiburmu 😉.
 
 Add me to your group and play music freely!**
         """,
@@ -19,17 +19,25 @@ Add me to your group and play music freely!**
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
+                        "➕ Tambahkan Ke Group ➕ ",  url="https://t.me/zankemusicbot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "💬 Group", url="https://t.me/xbotgrup"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "🔊 Channel", url="https://t.me/"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "✉️ DONATE ✉️",Hai Terimaksih Jika kamu ingin berdonasi kepada pemilik saya 😊
+
+Setiap donasi yang kalian berikan
+Akan kami kumpulkan untuk 
+Memperpanjang ataupun meningkatkan VPS saya
+Agar saya dapat berfungsi lebih maksimal.,
+
+Jika kalian ingin memberikan donasi
+Silahkan PM Owner saya 👉 [Zankee]url="https://t.me/zankizaif"
                     )]
             ]
         ),
@@ -43,7 +51,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "🔊 Channel", url="https://t.me/")
                 ]
             ]
         )
